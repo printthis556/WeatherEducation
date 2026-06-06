@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>DIY Weather Station | Weather Education Project</title>
+
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container nav-container">
+      <a href="index.html" class="site-logo">WeatherLab</a>
+
+      <button class="menu-btn" id="menuBtn" aria-label="Open navigation">
+        ☰
+      </button>
+
+      <nav class="site-nav" id="siteNav">
+        <a href="index.html">Home</a>
+        <a href="learn-weather.html">Learn Weather</a>
+        <a href="aviation-weather.html">Aviation Weather</a>
+        <a href="weather-lab.html">Weather Lab</a>
+        <a href="diy-station.html">DIY Station</a>
+        <a href="about.html">About</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero-section">
+      <div class="container">
+        <p class="eyebrow">Build series</p>
+        <h1>DIY Weather Station</h1>
+        <p class="hero-text">
+          Follow the build of a home weather station using sensors, code, 3D printed parts, and real weather math.
+        </p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container split-section">
+        <div>
+          <p class="eyebrow">First build</p>
+          <h2>The Atmosphere Box</h2>
+          <p>
+            The Atmosphere Box will measure temperature, humidity, and pressure. From those readings, we’ll calculate dew point, estimated cloud base, pressure trends, and approximate temperature changes with altitude.
+          </p>
+        </div>
+
+        <div class="formula-card">
+          <p class="formula-title">Planned sensors</p>
+          <div class="sensor-list">
+            <span>Temperature</span>
+            <span>Humidity</span>
+            <span>Pressure</span>
+            <span>Optional display</span>
+            <span>3D printed enclosure</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-alt">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">Build roadmap</p>
+          <h2>Project phases</h2>
+        </div>
+
+        <div class="card-grid">
+          <article class="info-card">
+            <h3>Part 1: Sensor Box</h3>
+            <p>Read temperature, humidity, and pressure from the first sensor module.</p>
+          </article>
+
+          <article class="info-card">
+            <h3>Part 2: Weather Math</h3>
+            <p>Calculate dew point, cloud base, and temperature changes with altitude.</p>
+          </article>
+
+          <article class="info-card">
+            <h3>Part 3: Website Dashboard</h3>
+            <p>Send the sensor data to the website and explain what the numbers mean.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-content">
+      <p>© 2026 WeatherLab. Educational weather tools and lessons.</p>
+      <p class="footer-disclaimer">
+        Always use official FAA, NWS, NOAA, and local emergency sources for real-world weather decisions.
+      </p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

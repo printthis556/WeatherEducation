@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Weather Education Project</title>
+
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container nav-container">
+      <a href="index.html" class="site-logo">WeatherLab</a>
+
+      <button class="menu-btn" id="menuBtn" aria-label="Open navigation">
+        ☰
+      </button>
+
+      <nav class="site-nav" id="siteNav">
+        <a href="index.html">Home</a>
+        <a href="learn-weather.html">Learn Weather</a>
+        <a href="aviation-weather.html">Aviation Weather</a>
+        <a href="weather-lab.html">Weather Lab</a>
+        <a href="diy-station.html">DIY Station</a>
+        <a href="about.html">About</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero-section">
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <p class="eyebrow">Weather education for pilots, boaters, storm chasers, and builders</p>
+
+          <h1>Learn weather by building it.</h1>
+
+          <p class="hero-text">
+            A hands-on weather education project that explains aviation, marine, and storm chasing weather through simple lessons, interactive tools, and a DIY weather station build.
+          </p>
+
+          <div class="hero-actions">
+            <a href="weather-lab.html" class="btn btn-primary">Explore Weather Lab</a>
+            <a href="diy-station.html" class="btn btn-secondary">View DIY Station</a>
+          </div>
+        </div>
+
+        <div class="hero-card">
+          <h2>Atmosphere Box</h2>
+          <p>
+            The first DIY build will measure temperature, humidity, and pressure. Then we’ll use that data to calculate dew point, estimated cloud base, and temperature changes with altitude.
+          </p>
+
+          <div class="sensor-list">
+            <span>Temperature</span>
+            <span>Humidity</span>
+            <span>Pressure</span>
+            <span>Dew Point</span>
+            <span>Cloud Base</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">Start here</p>
+          <h2>What do you want to learn?</h2>
+          <p>
+            Choose a path based on how you use weather.
+          </p>
+        </div>
+
+        <div class="card-grid">
+          <article class="info-card">
+            <h3>Aviation Weather</h3>
+            <p>
+              Learn how pilots read clouds, wind, visibility, METARs, TAFs, pressure, and cloud bases.
+            </p>
+            <a href="aviation-weather.html">Learn aviation weather →</a>
+          </article>
+
+          <article class="info-card">
+            <h3>Weather Lab</h3>
+            <p>
+              Use interactive tools to understand the math behind dew point, cloud base, lapse rates, and wind.
+            </p>
+            <a href="weather-lab.html">Try the tools →</a>
+          </article>
+
+          <article class="info-card">
+            <h3>DIY Weather Station</h3>
+            <p>
+              Follow the build of a home weather station using sensors, code, 3D printed parts, and real weather math.
+            </p>
+            <a href="diy-station.html">Follow the build →</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-alt">
+      <div class="container split-section">
+        <div>
+          <p class="eyebrow">Featured tool</p>
+          <h2>Cloud Base Estimator</h2>
+          <p>
+            Estimate where clouds may begin forming using temperature and dew point. This is one of the first tools that will connect directly to the Atmosphere Box build.
+          </p>
+          <a href="weather-lab.html" class="btn btn-primary">Try it in Weather Lab</a>
+        </div>
+
+        <div class="formula-card">
+          <p class="formula-title">Simple estimate</p>
+          <p class="formula">
+            Cloud Base ≈ ((Temp − Dew Point) ÷ 4.4) × 1000
+          </p>
+          <p class="small-text">
+            This is an educational estimate and should not replace official aviation weather sources.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">Coming soon</p>
+          <h2>Future sections</h2>
+        </div>
+
+        <div class="card-grid">
+          <article class="info-card muted-card">
+            <h3>Marine Weather</h3>
+            <p>
+              Wind, waves, tides, storms, lightning, and safe boating weather decisions.
+            </p>
+          </article>
+
+          <article class="info-card muted-card">
+            <h3>Storm Chasing</h3>
+            <p>
+              Radar basics, velocity, dew point, boundaries, storm structure, and severe weather safety.
+            </p>
+          </article>
+
+          <article class="info-card muted-card">
+            <h3>Live Station Data</h3>
+            <p>
+              Future live dashboard using data from the DIY weather station.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-content">
+      <p>© 2026 WeatherLab. Educational weather tools and lessons.</p>
+      <p class="footer-disclaimer">
+        Always use official FAA, NWS, NOAA, and local emergency sources for real-world weather decisions.
+      </p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
